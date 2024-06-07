@@ -21,6 +21,7 @@ h1 {
 table {
     width: 100%;
     border-collapse: collapse;
+    table-layout: fixed; /* Prevent cell size from changing */
 }
 
 thead th {
@@ -34,7 +35,7 @@ tbody td {
     text-align: center;
     padding: 8px;
     height: 30px;
-    width: 30px;
+    width: 50px; /* Set a fixed width */
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
